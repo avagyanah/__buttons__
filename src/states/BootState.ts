@@ -16,6 +16,7 @@ export default class BootState extends Phaser.State {
     super.preload(game);
     this.game.load.image('btn-icon-expert', 'assets/btn-icon-expert.png');
     this.game.load.image('btn-icon-check', 'assets/btn-icon-check.png');
+    this.game.load.image('btn-icon-hint', 'assets/btn-icon-hint.png');
     this.game.load.image('btn-green-up', 'assets/btn-green-up.png');
     this.game.load.image('btn-green-over', 'assets/btn-green-over.png');
     this.game.load.image('btn-green-down', 'assets/btn-green-down.png');
@@ -25,7 +26,7 @@ export default class BootState extends Phaser.State {
     this.game.load.image('btn-grey-down', 'assets/btn-grey-down.png');
     this.game.load.image(
       'btn-grey-disabled-small',
-      'assets/btn-grey-disabled.png',
+      'assets/btn-grey-disabled-small.png',
     );
   }
 

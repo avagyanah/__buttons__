@@ -111,7 +111,7 @@ export default abstract class AbstractButton extends Container {
     return state;
   }
 
-  private set input(value: boolean) {
+  protected set input(value: boolean) {
     this.inputShape.inputEnabled = value;
     if (value) {
       this.inputShape.input.useHandCursor = value;
